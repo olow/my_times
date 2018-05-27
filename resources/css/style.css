@@ -1,0 +1,42 @@
+html, body, input, button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100vh;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Verdana', sans-serif;
+
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  border-radius: 1px dotted blue;
+}
+
+nav span {
+  display: inline-block;
+  padding_right: 40px;
+  border-radius: 1px dotted red;
+}
+
+nav span a {
+  padding: 20px 10px;
+}
