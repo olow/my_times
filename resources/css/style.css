@@ -12,6 +12,15 @@ html, body, input, button {
   box-sizing: border-box;
 }
 
+nav span {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+nav span a {
+  padding: 20px 10px;
+}
+
 .header {
   font-size: 14px;
   font-weight: bold;
@@ -23,20 +32,60 @@ html, body, input, button {
   z-index: 1;
   width: 100%;
   height: 80px;
+  background-color: white;
   border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 40px;
 }
 
 .logo span {
   color: MediumAquamarine;
-  border-radius: 1px dotted blue;
+  padding-left: 12px;
 }
 
-nav span {
-  display: inline-block;
-  padding_right: 40px;
-  border-radius: 1px dotted red;
+.content {
+  display: flex;
+  border: 1px solid blue;
 }
 
-nav span a {
-  padding: 20px 10px;
+.col {
+  margin-top: 80px;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
+.col.large {
+  background-image: url("../img/img-story-main.png");
+  background-repeat: no-repeat;
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  color: white;
+}
+
+.col.medium {
+  width: 300px;
+  border: 1px solid blue;
+}
+
+.col.small {
+  width: 240px;
+  border: 1px solid blue;
+}
+
+div, h1, h2, span {
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+text-content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
